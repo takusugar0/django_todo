@@ -40,6 +40,14 @@ a.list-group-item:hover {
   background-color: #9bdeac;
 }
 
+a.list-group-item.active,
+a.list-group-item.active:focus,
+a.list-group-item.active:hover{
+  color: #474a2c;
+  background-color: #9bdeac;
+  border-color: #9bdeac;
+}
+
 .btn-default:hover {
   background-color: #9bdeac;
 }
