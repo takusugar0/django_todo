@@ -13,7 +13,7 @@ django+dockerで作ったTodoアプリ
 
 ## 概観
 - トップページ
-
+![トップページ改.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/370196/3f383d9c-eef1-7466-4862-5480a0f07286.png)
 
 - フォルダ作成ページ
 ![フォルダー作成機能.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/370196/2d9f44e4-fef7-93ea-f38f-51abadf0133b.png)
@@ -27,3 +27,10 @@ django+dockerで作ったTodoアプリ
 ## Requirement
 - docker  
 - docker-compose
+
+## 実行
+`$ git clone git@github.com:takusugar0/django_todo.git`  
+`$ cd django_todo`  
+`$ docker-compose up --build`  
+  
+ブラウザで　http://localhost:8000/folders/1/tasks にアクセス
