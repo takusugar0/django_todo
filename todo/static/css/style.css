@@ -37,24 +37,43 @@ body {
 }
 
 a.list-group-item:hover {
-  background-color: #9bdeac;
+  color: #fff;
+  background-color: #474a;
 }
 
 a.list-group-item.active,
 a.list-group-item.active:focus,
 a.list-group-item.active:hover{
-  color: #474a2c;
-  background-color: #9bdeac;
-  border-color: #9bdeac;
+  color: #fff;
+  background-color: #474a;
+  border-color: #e6e9ed;
+}
+
+a {
+  color: #474a;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #4909;
 }
 
 .btn-default:hover {
-  background-color: #9bdeac;
+  color: #fff;
+  background-color: #474a;
 }
 
-.btn:hover {
-  color: #474a2c;
-  outline: 0!important;
+.btn{
+  border-color: #474a;
+}
+
+.btn-primary {
+  background-color: #474a;
+  border-color: #474a;
+}
+
+.btn-primary:hover {
+  background-color: #4909;
 }
 
   .table td:nth-child(2),
