@@ -2,8 +2,8 @@
 django+dockerで作ったTodoアプリ
 
 ## 概要
-いい感じのチュートリアルを作ってみたかったので、DjangoでTodoアプリを作りました。  
-チュートリアルは以下のQiitaのリンクにあります！
+Django作ったTodoアプリです。
+チュートリアルをQiitaに書きました。
 
 [DjangoでTodoアプリを作る①Dockerで環境を構築する](https://qiita.com/takos/items/b9ba0b60c6f71b428aac)  
 [DjangoでTodoアプリを作る②フォルダ一覧ページの作成](https://qiita.com/takos/items/3e480183e72f41b69b84)  
